@@ -1,6 +1,7 @@
 import javax.swing.JOptionPane;
 
 // Exercício 3: Encontrar o maior valor entre três números distintos
+// && = Operador Lógico AND (E)
 public class Exerc3 {
     public static void main(String[] args) {
         double num1 = Double.parseDouble(JOptionPane.showInputDialog("Digite o primeiro número:"));
