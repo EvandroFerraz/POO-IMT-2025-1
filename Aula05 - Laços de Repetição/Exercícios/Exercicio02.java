@@ -22,7 +22,7 @@ public class Exercicio02 {
         do{
           output += i + " ";
           i--;
-        }(while i >= 0)*/
+        }while (i >= 0)*/
 
         JOptionPane.showMessageDialog(null, output);
     }

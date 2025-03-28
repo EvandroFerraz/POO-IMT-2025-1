@@ -7,7 +7,7 @@ public class Exercicio01 {
 
         // Usando for
         for (int i = 0; i < 100; i++) {
-            output += i + " ";
+            output += i + " "; // fazemos a concatenação de todos os valores de i em uma única string
         }
 
         // Usando while
@@ -22,9 +22,9 @@ public class Exercicio01 {
         do{
           output += i + " ";
           i++;
-        }(while i < 100)*/
+        }while (i < 100)*/
         
-        JOptionPane.showMessageDialog(null, output);
+        JOptionPane.showMessageDialog(null, output); // imprimimos a concatenação de todos os númermos de 1 até 100
     }
 }
 
