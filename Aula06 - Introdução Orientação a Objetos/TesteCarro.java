@@ -5,7 +5,7 @@ import javax.swing.JOptionPane;
 public class TesteCarro {
     public static void main(String[] args) {
         // Exerc2 - instancia dois carros: cria dois objetos da classe Carro
-        // Exerc4 - ajustes necessários: Passar valores iniciais para os atributos como parâmetros do construtor
+        // Exerc4 - ajustes necessários: passar valores iniciais para os atributos como parâmetros do construtor
         Carro carro1 = new Carro("fusca", 100);
         Carro carro2 = new Carro("outro fusca", 50);
         
@@ -24,7 +24,7 @@ public class TesteCarro {
         );
         carro2.setVelocidade(velocidade2);
         
-        // Exibe os valores dos atributos utilizam os getters
+        // Exibe os valores dos atributos utilizando os getters
         System.out.println("Carro1: \n Marca: " + carro1.getMarca() + " Velocidade: " + carro1.getVelocidade());
         System.out.println("Carro2: \n Marca: " + carro2.getMarca() + " Velocidade: " + carro2.getVelocidade());
         
