@@ -7,7 +7,7 @@ public class LivroDeNotas {
     // método construtor: serve para criar objetos da classe
     //  - deve ter o mesmo nome que a classe
     //  - serve para inicializar as variáveis de instância (outro nome para atributos)
-    //  - ou seja, permite criar um objetos já com um valores iniciais para seus atributos
+    //  - ou seja, permite criar um objeto já com um valores iniciais para seus atributos
     public LivroDeNotas(String novoNome){
         nomeDoCurso = novoNome;
     }
@@ -20,7 +20,7 @@ public class LivroDeNotas {
     
     // método get
     // serve para retornar o valor atual de um atributo
-    // é um método de consulta, utilizamos para saber qual o valor guardado em um atributo da classe
+    // é um método de consulta, utilizamos para saber qual o valor atual guardado em um atributo da classe
     public String getNomeDoCurso(){
         return nomeDoCurso;
     }
